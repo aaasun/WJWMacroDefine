@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'WJWDefine_Example' do
+  pod 'WJWDefine', :path => '../'
+
+  target 'WJWDefine_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+  end
+end
