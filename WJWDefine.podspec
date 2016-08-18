@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WJWDefine'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of WJWDefine.'
+  s.version          = '1.0.0'
+  s.summary          = '常用的define的一个封装'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                        项目中常用到的宏定义的一个封装，支持cocoapods
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/WJWDefine'
+  s.homepage         = 'https://github.com'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wangjw' => 'wangjw@kaolafm.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/WJWDefine.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/aaasun/WJWMacroDefine.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
 
   s.source_files = 'WJWDefine/Classes/**/*'
   
